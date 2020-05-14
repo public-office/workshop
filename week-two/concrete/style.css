@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: inherit;
 }
 html {
   font-size: 10px;
 }
 body {
   font-size: 1.6rem;
-  font-family: 'DiatypePre-Regular', sans-serif;
+  font-family: sans-serif, sans-serif;
   letter-spacing: 1px;
 }
 
@@ -28,6 +29,10 @@ h1 {
 p, h1 {
   font-size: 3.6rem;
   letter-spacing: 1px;
+}
+
+em {
+  font-style: italic;
 }
 
 article {
@@ -86,7 +91,6 @@ article:nth-of-type(5) p {
   opacity: 0;
 }
 .sun {
-  /* padding-left: 6px; */
   transition: all 0.5s ease-in-out;
 }
 .sun:hover {
