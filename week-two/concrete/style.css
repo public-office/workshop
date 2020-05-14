@@ -85,9 +85,14 @@ article:nth-of-type(5) p {
 .hide {
   opacity: 0;
 }
-
+.sun {
+  /* padding-left: 6px; */
+  transition: all 0.5s ease-in-out;
+}
 .sun:hover {
-  text-shadow: 2px 2px 4px #FFD700;
+  background: #FFD700;
+  box-shadow: 1px 1px 24px 24px #FFD700;
+  border-radius: 20px;
   cursor: pointer;
 }
 
