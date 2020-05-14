@@ -41,6 +41,10 @@ article {
   position: relative;
 }
 
+article:last-of-type {
+  color: red;
+}
+
 article:nth-of-type(odd) p {
   max-width: 480px;
   margin-right: 2em;
@@ -88,7 +92,7 @@ article:nth-of-type(5) p {
 }
 
 .hide {
-  opacity: 0;
+  visibility: hidden;
 }
 .sun {
   transition: all 0.5s ease-in-out;
