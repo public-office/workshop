@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: serif;
+  letter-spacing: 0.1px;
+  text-align: left;
+
+}
+
+table {
+  border-spacing: 5px;
+}
+
+table, td, tr, th {
+    border-width: 20px;
+}
+
+td, tr, th {
+       padding: 10px;
+       border: 1px solid white;
+       border-collapse: collapse;
+}
+
+article {
+  width: calc(100% * 1 / 2);
+  min-height: 255px;
+  position: relative;
+}
+
+article:last-of-type {
+  color: red;
+  text-align: center;
+}
+
+.hide {
+  visibility: hidden;
+}
