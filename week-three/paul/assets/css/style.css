@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  margin: 1em;
+}
+
+main {
+  width: 100%;
+}
+
+article {
+  width: 50%;
+  height: 50vh;
+  border: 2px solid;
+  position: relative;
+  overflow-y: auto;
+  font-size: 2rem;
+}
+article article {
+  width: 70%;
+  height: 110%;
+  background: #f7f7f7;
+  outline: 0;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  border-left: 2px solid rgba(0,0,0,0.5);
+}
+article article p {
+  position: sticky;
+  top: 10px;
+  text-transform: uppercase;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: 1rem; right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80%;
+}
+.button:hover {
+  cursor: pointer;
+  background: blue;
+  color: white;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.5em;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.box div {
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+  background-color: red;
+  width: 50%;
+  font-size: 4.8rem;
+  padding: 0.25em;
+}
+.box div:nth-of-type(2) {
+  background-color: green;
+  justify-content: flex-end;
+}
+.box div:nth-of-type(3) {
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+.box div:nth-of-type(4) {
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+}
+.box div:nth-of-type(5) {
+  align-items: flex-end;
+  background-color: purple;
+}
+.box div:nth-of-type(6) {
+  background-color: powderblue;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.circle-1 {
+  position: fixed;
+  top: 10rem;
+  right: 20rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: purple;
+  filter: blur(40px);
+}
+.circle-2 {
+  position: fixed;
+  top: 20rem;
+  right: 25rem;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background: yellow;
+  filter: blur(40px);
+}
+.circle-3 {
+  position: fixed;
+  top: 25rem;
+  right: 10rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background: powderblue;
+  filter: blur(40px);
+}

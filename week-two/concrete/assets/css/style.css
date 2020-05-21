@@ -41,8 +41,11 @@ article {
   position: relative;
 }
 
-article:last-of-type {
-  color: red;
+article:first-of-type p:hover {
+  visibility: hidden;
+}
+article:first-of-type p:hover .hide {
+  visibility: visible;
 }
 
 article:nth-of-type(odd) p {
