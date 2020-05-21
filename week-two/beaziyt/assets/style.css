@@ -1,0 +1,292 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  font: inherit;
+}
+html {
+  font-size: 10px;
+}
+body{
+  margin-left: 5em;
+  margin-top: 5em;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2em;
+  max-width: 100%;
+}
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url("assets/Futura-Bold.otf");
+}
+@font-face {
+  font-family:'Garamond';
+  src: url("ItalianGaramondRegular.otf");
+}
+p{
+  margin: 0;
+}
+h1{
+  font-family: 'Garamond';
+  font-size: 0.7em;
+}
+h2{
+  font-family: 'Futura';
+}
+h3{
+  font-family: sans-serif;
+  font-size: 2em;
+}
+article {
+  width: calc(100% * 1 / 2);
+  min-height: 255px;
+  position: relative;
+  font-size: 2.5em;
+  line-height: 1.15em;
+}
+article#crystalgoblet{
+  line-height: .78em;
+}
+#decampos span{
+  display: block;
+  width:306px;
+  height:305px;
+  white-space:pre;
+	overflow:visible;
+	padding:0px;
+}
+.centre{
+  text-align: center;
+}
+.krasa{
+margin-left: 0.1em;
+}
+.hakim {
+  margin-left: 2.3em;
+}
+.saha{
+  margin-left: 1.3em;
+}
+.mezi{
+  margin-left: 4.2em;
+}
+.zebra{
+  margin-left: 6.4em;
+}
+.bratrim{
+  margin-left: 7.5em;
+}
+.a{
+  margin-left: 8.7em;
+}
+.rim{
+  margin-left: 9.8em;
+}
+.trima{
+  margin-left: 9.4em;
+}
+.maj{
+  margin-left: 10em;
+}
+.jara{
+  margin-left: 11.4em;
+}
+/* div.rotate-i1{
+  -webkit-transform: rotate(-85deg);
+  /* -moz-transform: rotate(5deg); */
+}
+/* div.rotate-i2{
+  -webkit-transform: rotate(1deg);
+  /* -moz-transform: rotate(5deg); */
+.i1{
+  padding: 1em;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+/* .right{
+  text-align: right;
+} */
+.p{
+  text-align: left;
+  text-indent: 0em;
+  margin-left: 0em;
+}
+.e{
+  text-align: right;
+  margin-left: 12em;
+}
+.r{
+  text-align: left;
+  text-indent: 2em;
+  margin: 0;
+}
+.i1{
+  text-align: left;
+  margin-left: 0em;
+  text-indent: 0em;
+}
+.n1{
+  text-align: left;
+}
+.t{
+  text-align: left;
+}
+.i2{
+  text-align: left;
+}
+.n2{
+  text-align: left;
+  margin-left: 10em;
+}
+.g{
+  text-align: left;
+}
+.e{
+  text-align: right;
+}
+.l{
+  text-align: right;
+  margin-left: 12em;
+}
+.b{
+  text-align: right;
+  margin-left: 12em;
+}
+.i3{
+  text-align: right;
+  margin-left: 10.9em;
+}
+.s{
+  text-align: right;
+  margin-left: 10em;
+}
+.i4{
+  text-align: right;
+  margin-left: 9.3em;
+}
+.v{
+  text-align: right;
+  margin-left: 7.8em;
+}
+.n3{
+  text-align: right;
+  margin-left: 6.5em;
+}
+.period2 .period4 {
+  margin-left: 2em;
+}
+.period3{
+  margin-left: 3em;
+}
+.period5{
+  margin-left: 1em;
+}
+#decampos>span[class^=w]:nth-of-type(n+0){
+  display:block;
+	position:absolute;
+  -moz-transform-origin:50% 100%;
+	-webkit-transform-origin:50% 100%;
+	-o-transform-origin:50% 100%;
+	-ms-transform-origin:50% 100%;
+	transform-origin:50% 100%;
+
+}
+#decampos .w1 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(1rad);
+  width: 180px;
+  height: 180px;
+  -webkit-transform: rotate(-20deg);
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w2 {
+	-moz-transform: rotate(1.14rad);
+	-webkit-transform: rotate(1.14rad);
+	-o-transform: rotate(1.14rad);
+	-ms-transform: rotate(1.14rad);
+	transform: rotate(0.2rad);
+  /* -webkit-transform: rotate(-14deg); */
+  transform: rotate(5deg);
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w3 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(1rad);
+  /* -webkit-transform: rotate(45deg); */
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w4 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(2rad);
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w5 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(3rad);
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w6 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(3.6rad);
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w7 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(4.5rad);
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
+#decampos .w8 {
+	-moz-transform: rotate(-1.14rad);
+	-webkit-transform: rotate(-1.14rad);
+	-o-transform: rotate(-1.14rad);
+	-ms-transform: rotate(-1.14rad);
+	transform: rotate(5.5rad);
+  width: 300px;
+  height: 300px;
+	/* left: 42.7px;
+	top: 93.95px; */
+}
