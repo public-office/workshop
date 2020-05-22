@@ -10,13 +10,15 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: serif;
+  /* font-family: serif; */
   letter-spacing: 0.1px;
   text-align: left;
 
 }
 
-table {
+
+
+/* table {
   border-spacing: 5px;
 }
 
@@ -28,6 +30,24 @@ td, tr, th {
        padding: 10px;
        border: 1px solid white;
        border-collapse: collapse;
+} */
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+}
+
+.column.double {
+  flex: 2;
 }
 
 article {
