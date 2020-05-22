@@ -1,0 +1,129 @@
+* {
+  font: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px; /* root size */
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  padding: 2rem;
+  line-height: 1.2;
+  color: grey;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.07rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: grey;
+  width: 35%;
+}
+
+.caption{
+  font-family: sans-serif;
+  font-weight: medium;
+  font-size: 1rem;
+  color: black;
+  color: lightgreen;
+  width: 35%;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:link {
+  color: lightgreen;
+}
+
+a:visited {
+  color: lightgreen;
+}
+
+.numbers {
+  font-size: 1.8rem;
+}
+
+.columns {
+  width: 35%;
+  height: 100vh;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.columns article {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  /* background-color: red; */
+  width: 15%;
+  padding-left: 6.5rem;
+}
+
+.columns article:nth-of-type(2) {
+  /* background-color: green; */
+  justify-content: center;
+  width: 85%;
+  padding-left: 1rem;
+}
+
+.rotation {
+  transform: rotate(90deg);
+  /* margin: 1rem 0rem 1rem 0rem */
+
+}
+
+.poem1{
+  width: 90%;
+}
+
+.triple {
+  width: 1;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.triple div {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  /* padding-left: 1.5rem; */
+}
+
+.triple div:nth-of-type(2) {
+  justify-content: center;
+}
+
+.triple div:nth-of-type(3) {
+  justify-content: center;
+  /* padding-right: 1.5rem; */
+}
+
+/* .button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: yellow;
+  filter: blur(5px);
+  /* position: absolute; */
+  /* top: 1rem; right: 1rem; */
+  bottom: 2rem;
+  left: 5rem;
+  align-items: center;
+  justify-content: center; */
