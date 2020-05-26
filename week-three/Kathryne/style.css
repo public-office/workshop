@@ -13,7 +13,7 @@ body {
   font-size: 1.6rem;
   font-family: sans-serif;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 10px;
 }
 
 main {
@@ -33,16 +33,47 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
+
 .box div {
   display: flex;
   align-items: top;
   justify-content: flex-start;
   background-color: powderblue;
+  filter: blur(40px);
   width: 50%;
   font-size: 4.8rem;
   padding: 0.25em;
+}
+
+.box div:nth-of-type(3) {
+  background-color: lightgrey;
+  justify-content: flex-end;
+  align-items: flex-end;
+  filter: blur(40px);
+}
+
+.box div:nth-of-type(4) {
+  background-color: lightgrey;
+  justify-content: flex-end;
+  align-items: flex-end;
+  filter: blur(40px);
+}
+
+.box div:nth-of-type(5) {
+  background-color: grey;
+  justify-content: flex-end;
+  align-items: flex-end;
+  filter: blur(40px);
+}
+
+.box div:nth-of-type(6) {
+  background-color: grey;
+  justify-content: flex-end;
+  align-items: flex-end;
+  filter: blur(40px);
+}
+
 
 .circle-1 {
   position: fixed;
@@ -51,7 +82,7 @@ h1 {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
-  background: black;
+  background: navy;
   filter: blur(40px);
 }
 .circle-2 {
@@ -61,16 +92,54 @@ h1 {
   width: 40rem;
   height: 40rem;
   border-radius: 50%;
-  background: yellow;
+  background: blue;
   filter: blur(40px);
 }
 .circle-3 {
   position: fixed;
-  top: 25rem;
+  top: 55rem;
+  right: 20rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background: black;
+  filter: blur(40px);
+}
+
+.circle-4 {
+  position: fixed;
+  top: 40rem;
   right: 10rem;
   width: 25rem;
   height: 25rem;
   border-radius: 50%;
   background: powderblue;
   filter: blur(40px);
+}
+
+.circle-5 {
+  position: fixed;
+  top: 20rem;
+  right: 10rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background: blue;
+  filter: blur(40px);
+}
+
+p {
+  font: arial;
+  font-size: 4.8rem;
+  color: black;
+}
+
+p2 {
+  font: arial;
+  font-size: 4.8rem;
+  color: black;
+}
+
+.hide {
+  opacity: 0;
 }
