@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.5em;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.box div {
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+  background-color: powderblue;
+  width: 50%;
+  font-size: 4.8rem;
+  padding: 0.25em;
+
+.circle-1 {
+  position: fixed;
+  top: 10rem;
+  right: 20rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: black;
+  filter: blur(40px);
+}
+.circle-2 {
+  position: fixed;
+  top: 20rem;
+  right: 25rem;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background: yellow;
+  filter: blur(40px);
+}
+.circle-3 {
+  position: fixed;
+  top: 25rem;
+  right: 10rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background: powderblue;
+  filter: blur(40px);
+}
