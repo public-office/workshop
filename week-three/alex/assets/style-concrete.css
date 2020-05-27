@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  font-size: 10px;
+  background-color: grey;
+}
+
+h1 {
+  position: fixed;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  letter-spacing: .5px;
+  margin: 0;
+  /* border: 50px solid red; */
+}
+
+main {
+  width: 100%;
+}
+
+.triangle-up {
+      width: 0;
+      height: 0;
+      align-content: center;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid yellow;
+      padding-top: 18px;
+    }
+
+    /* a: link {
+      color: black;
+    }
+
+    a: link {
+      color: red;
+    }
+
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #8b3a3a;
+    } */
+
+    .button {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: yellow;
+      position: fixed;
+      top: 1rem; right: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80%;
+    }
+    .button:hover {
+      cursor: pointer;
+      background: grey;
+      color: yellow;
+    }
+
+/* .circle-1 {
+  position:static;
+  top: 10rem;
+  right: 20rem;
+  bottom: 10rem;
+
+  width: 80rem;
+  height: 80rem;
+
+  border-radius: 50%;
+  background: yellow;
+} */
+
+article {
+  width: 50vh;
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  background: yellow;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  margin-top: 0rem;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+
+}
+.box div {
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  background-color: #0051ff;
+  font-size: 4.8rem;
+  }
+
+  .image1 {
+  position:fixed;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 25%;
+  }
+
+
+  .image2 {
+  position:fixed;
+  left: 31em;
+  bottom: .5em;
+  z-index: -1;
+  width: 10%;
+  padding: 3px;
+  }
