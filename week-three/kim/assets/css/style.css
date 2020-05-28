@@ -1,0 +1,205 @@
+* {
+  font: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px; /* root size */
+}
+
+img {
+  position: absolute;
+  /* width: 80% */
+  /* padding: 10rem; */
+}
+
+.minicircle-1 {
+  /* width: 52rem;
+  height: 52rem;
+  border-radius: 50%;
+  background: darkorange;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */ */
+  position: fixed;
+  top: 20rem;
+  right: 25rem;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background: yellow;
+  filter: blur(40px);
+  z-index: -1;
+}
+
+.circle-1 {
+  width: 52rem;
+  height: 52rem;
+  border-radius: 50%;
+  background: darkorange;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-2 {
+  width: 48rem;
+  height: 48rem;
+  border-radius: 50%;
+  background: lightgreen;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(5%); */
+}
+
+.circle-3 {
+  width: 44rem;
+  height: 44rem;
+  border-radius: 50%;
+  background: blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-4 {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background: hotpink;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-5 {
+  width: 36rem;
+  height: 36rem;
+  border-radius: 50%;
+  background: beige;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-6 {
+  width: 32rem;
+  height: 32rem;
+  border-radius: 50%;
+  background: teal;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-7 {
+  width: 28rem;
+  height: 28rem;
+  border-radius: 50%;
+  background: lightblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-8 {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+  background: darkgreen;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-9 {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: pink;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-10 {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  background: skyblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-11 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background: orange;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-12 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: lightyellow;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-13 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}
+
+.circle-14 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+  /* filter: blur(40px); */
+}

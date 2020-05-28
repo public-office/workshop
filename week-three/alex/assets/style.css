@@ -1,23 +1,99 @@
-* { font: inherit;
-  box-sizing: border-border-box;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  font-size: 10px;
 }
 
 body {
-  padding: 4rem;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  letter-spacing: .5px;
+  margin: 0;
 }
 
-h1 {
-  font-size: 1.6rem;
+a: link {
+  color: yellow;
 }
+
+a: link {
+  color: red;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b3a3a;
+}
+
 
 .box {
-  background: black;
-  color: pink;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.box div {
+  align-items: top;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  background-color: #0051ff;
+  width: 100%;
+  height: 33.3%;
+  font-size: 1.6rem;
+
+}
+.box div:nth-of-type(2) {
+  background-color: #8b3a3a;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 33.3;
+}
+.box div:nth-of-type(3) {
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  width: 100%;
+  height: 6.66%;
+}
+.box div:nth-of-type(4) {
+  align-items: center;
+  justify-content: center;
+  background-color: #03B3B3;
+  width: 100%;
+  height: 6.66%;
+}
+.box div:nth-of-type(5) {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 6.66%;
+}
+.box div:nth-of-type(6) {
+  align-items: center;
+  justify-content: center;
+  background-color: #0051ff;
+  width: 100%;
+  height: 6.66%;
 }
 
-.box1{
-  width: 10rem;
-  height: 50vh;
+.box div:nth-of-type(7) {
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 100%;
+  height: 6.66%;
 }
