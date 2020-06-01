@@ -15,7 +15,7 @@ article{
 }
 
 .horizontal-line{
-  border: .5px solid black;
+  border: .3px solid black;
   position: relative;
   display: inline-block;
   width: 600px;
@@ -31,15 +31,15 @@ article{
   position: relative;
   display: inline-block;
   height: 600px;
-  top: 0;
+  /* top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; */
 }
 
 .circle-1{
-  top: 0;
-  left: 0;
+  /* top: 5rem;
+  left: 5rem; */
   right: 0;
   bottom: 0;
   position: absolute;
@@ -48,18 +48,47 @@ article{
   height: 25rem;
   border-radius: 50%;
   border: .5px solid black;
+  transform: translate(-10%, -10%);
+}
+
+.circle-2{
+  /* top: 5rem;
+  left: 5rem; */
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: inline-block;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  border: .5px solid black;
+  transform: translate(-130%, -130%);
 }
 
 .square-1{
   border: .5px solid black;
   width: 20rem;
   height: 20rem;
-  top: 5rem;
-  left: 35rem;
+  /* top: 5rem;
+  left: 35rem; */
   right: 0;
   bottom: 0;
   display: inline-block;
   position: absolute;
+  transform: translate(-25%, -174%);
+}
+
+.square-2{
+  border: .5px solid black;
+  width: 20rem;
+  height: 20rem;
+  /* top: 5rem;
+  left: 35rem; */
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-174%, -25%);
 }
 /*
 .rectangle-1{
@@ -127,7 +156,7 @@ article{
   border: 1px solid black;
   width: 600px;
   height: 600px;
-  display: inline-block;
+  display: flex;
   position: absolute;
   margin: auto;
   left: 0;
@@ -135,4 +164,33 @@ article{
   top: 0;
   bottom: 0;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.horiztonal-line .vertical-line .circle-1 .square-1 .square-2 .circle-2{
+  flex: 1;
+}
+
+.circle-1:hover{
+  background: rgba(231, 194, 77, 100); /*mustard*/
+}
+
+.square-1:hover{
+  background: rgba(255, 39, 112, 100); /*pink*/
+  filter: blur(40px);
+}
+
+.square-2:hover{
+  background: rgba(0, 119, 222, 100); /*blue*/
+  linear-gradient:
+}
+
+.circle-2:hover{
+    /* content: url(./federation_peak.jpeg);
+    display: block; */
+    background: black;
+
 }
