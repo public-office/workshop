@@ -1,0 +1,90 @@
+<pre>
+Things to install
+* Terminal
+    * Terminal.app (installed with MacOS)
+    * or [iTerm](https://www.iterm2.com/)
+* [XCode Command line tools](https://developer.apple.com/library/archive/technotes/tn2339/_index.html)
+    * `xcode-select --install`
+* [Atom](https://atom.io)
+* or [VSCode](https://code.visualstudio.com)
+    * Code editor
+* [Homebrew](https://brew.sh/)
+    * Package manager
+    * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+* [NodeJS](https://nodejs.org)
+    * `brew install node`
+* [Yarn](https://yarnpkg.org)
+    * `brew install yarn`
+* [MAMP](https://mamp.info)
+    * Apache web server and PHP programming language
+* [Git](https://git-scm.org)
+    * `brew install git`
+* [TLDR](https://tldr.sh)
+    * `yarn global add tldr`
+
+Identity and Keys
+
+* Generate a key
+    * `ssh-keygen -t ed25519`
+
+* Show your public key
+    * `cat ~/.ssh/id_ed25519.pub`
+    * or
+    * `cat ~/.ssh/id_rsa.pub`
+
+* Test Github key
+    * `ssh -T git@github.com`
+
+`cat ~/.ssh/id_ed25519.pub | pbcopy`
+
+https://secure.vexxhost.com/billing/index.php/knowledgebase/171/How-can-I-generate-SSH-keys-on-Mac-OS-X.html
+
+
+The Shell
+
+* clear
+* pwd
+* man
+* history
+* ls
+* node -v
+
+A directory for your code
+
+```
+mkdir ~/Sites
+cd ~/Sites
+```
+
+Tell Git your name and email address
+
+``
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+
+Tell MAMP about your `Sites` directory
+
+Clone a repository
+
+`git clone git@github.com:public-office/workshop.git`
+
+Change into the new directory
+
+`cd workshop`
+
+Move "up" a directory, to it's parent
+
+`cd ..`
+
+Paths, absolute and relative
+
+`git status`
+
+`git add .`
+
+`git status`
+
+`git commit -m 'A description of what I did'`
+</pre>
