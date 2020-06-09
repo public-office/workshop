@@ -31,6 +31,7 @@ h1 {
 
 }
 
+
 h2{
   font-size: 2.52rem;
   font-weight: 600;
@@ -129,6 +130,7 @@ a:visited {
     padding: 1.9rem;
     border-radius: 25px;
 }
+
 div {
     position:absolute;
     margin:2rem;
@@ -183,12 +185,13 @@ div:nth-child(5) {
   background: black;
 }
 
+
 .circle-1 {
   width: 52rem;
   height: 52rem;
   border-radius: 50%;
   background: darkorange;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -200,7 +203,7 @@ div:nth-child(5) {
   height: 48rem;
   border-radius: 50%;
   background: lightgreen;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -211,7 +214,7 @@ div:nth-child(5) {
   height: 44rem;
   border-radius: 50%;
   background: blue;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -222,7 +225,7 @@ div:nth-child(5) {
   height: 40rem;
   border-radius: 50%;
   background: hotpink;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -233,7 +236,7 @@ div:nth-child(5) {
   height: 36rem;
   border-radius: 50%;
   background: beige;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -244,7 +247,7 @@ div:nth-child(5) {
   height: 32rem;
   border-radius: 50%;
   background: teal;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -255,7 +258,7 @@ div:nth-child(5) {
   height: 28rem;
   border-radius: 50%;
   background: lightblue;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -266,7 +269,7 @@ div:nth-child(5) {
   height: 24rem;
   border-radius: 50%;
   background: darkgreen;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -277,7 +280,7 @@ div:nth-child(5) {
   height: 20rem;
   border-radius: 50%;
   background: pink;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -288,7 +291,7 @@ div:nth-child(5) {
   height: 16rem;
   border-radius: 50%;
   background: skyblue;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -299,7 +302,7 @@ div:nth-child(5) {
   height: 12rem;
   border-radius: 50%;
   background: orange;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -310,7 +313,7 @@ div:nth-child(5) {
   height: 8rem;
   border-radius: 50%;
   background: lightyellow;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -321,7 +324,7 @@ div:nth-child(5) {
   height: 4rem;
   border-radius: 50%;
   background: red;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
@@ -332,7 +335,7 @@ div:nth-child(5) {
   height: 1rem;
   border-radius: 50%;
   background: white;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%)
