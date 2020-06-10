@@ -1,0 +1,144 @@
+@keyframes scaling {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1) rotate(359deg);
+  }
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  margin: 20px;
+  /* transition: filter 1s, transform 0.2s; */
+  /* transform: scale(2);
+  mix-blend-mode: multiply; */
+}
+
+/* div:not(:hover) {
+  filter: blur(20px);
+  transform: rotate(20deg);
+} */
+
+div:hover {
+  /* filter: blur(20px);
+  transform: rotate(20deg); */
+  animation: scaling infinite 1s;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: palegreen;
+}
+
+.rectangle {
+  width: 200px;
+  height: 120px;
+  background: forestgreen;
+}
+
+.rounded-rect {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(fuchsia, gold);
+  /* background: radial-gradient(fuchsia, gold); */
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: darkcyan;
+  position: relative;
+}
+.circle:before, .circle:after {
+  content: '';
+  display: block;
+  background: white;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.circle:after {
+  left: initial;
+  right: 20%;
+}
+
+.tag {
+  width: 340px;
+  height: 200px;
+  border-radius: 20% / 100%;
+  background: royalblue;
+}
+
+.oval {
+  width: 340px;
+  height: 200px;
+  border-radius: 50%;
+  background: royalblue;
+}
+
+.frame {
+  width: 100px;
+  height: 100px;
+  border-top: 20px solid goldenrod;
+  border-bottom: 20px solid goldenrod;
+  border-right: 20px solid skyblue;
+  border-left: 20px solid skyblue;
+  /* border-radius: 10%; */
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 180px solid maroon;
+}
+
+.triangle.rotated {
+  border-bottom-color: gold;
+  transform: rotate(90deg) scale(1.5);
+  /* transform-origin: bottom left; */
+}
+
+.corner {
+  width: 0;
+  height: 0;
+  border-top: 200px solid darkkhaki;
+  border-right: 200px solid transparent;
+}
+
+.parallelogram {
+  width: 150px;
+  height: 150px;
+  background: plum;
+  transform: skew(20deg);
+}
+/* .parallelogram:after {
+  content: 'Italic';
+  font-size: 30px;
+  font-family: sans-serif;
+} */
+
+.half-circle {
+  width: 100px;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background: orchid;
+  filter: blur(20px);
+  /* box-shadow: 10px 10px 0 rgba(0, 0, 0, 1); */
+}

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* div span {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+} */
+div:nth-of-type(1) {
+  top: 15%; left: 15%;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+div:nth-of-type(1):hover {
+  cursor: pointer;
+  transform: rotate(45deg);
+  border-radius: 40px;
+}
+div:nth-of-type(2) {
+  top: 25%; left: 25%;
+  background: blue;
+  border-radius: 50%;
+  z-index: 2;
+}
+div:nth-of-type(3) {
+  top: 30px; left: 30px;
+  background: yellow;
+  z-index: 3;
+}
+/* div:nth-of-type(4) {
+  top: 40px; left: 40px;
+  background: brown;
+  z-index: 4;
+} */
+.type {
+  position: fixed;
+  top: 20px; right: 20px;
+  display: block;
+  padding: 0.5em;
+}
+.type:before {
+  content: 'a Box';
+  position: absolute;
+  top: -1.2em;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline;
+  font-size: 24px;
+  line-height: 1;
+}
+ul li:not(:last-of-type):after {
+  content: ', ';
+  color: white;
+}
+ul li:last-of-type:after {
+  content: '.';
+}
+ul li:last-of-type:before {
+  content: ' and ';
+}
+ul li:nth-last-of-type(2):after {
+  content: '';
+}
+ul li::selection {
+  color: white;
+}
+::selection {
+  color: white;
+}

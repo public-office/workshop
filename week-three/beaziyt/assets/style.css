@@ -13,19 +13,6 @@ article{
   text-align: center;
 }
 
-img{
-  width: auto;
-  height: 250px;
-  transform: translate(10%, 10%);
-  mix-blend-mode: multiply;
-}
-
-h1{
-  font-family: sans-serif;
-  font-size: 3rem;
-  color: black;
-}
-
 .box::-webkit-scrollbar {
   display: none;
 }
@@ -228,12 +215,4 @@ h1{
 
 .circle-4:hover{
   background-color: black;
-}
-
-.hide-a{
-  visibility: hidden;
-}
-
-.hide-a:hover{
-  visibility: visible;
 }
