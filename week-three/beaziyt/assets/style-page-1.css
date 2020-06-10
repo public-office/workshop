@@ -9,9 +9,9 @@ html{
   font-size: 10px;
 }
 
-h1{
-  font-family: sans-serif;
-  font-size: 2rem;
+a{
+  position: absolute;
+  z-index: 2;
 }
 
 .box::-webkit-scrollbar {
@@ -22,7 +22,7 @@ h1{
   /* width: 700px;
   height: 600px; */
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   margin: auto;
   left: 0;
   right: 0;
