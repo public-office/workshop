@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+
+div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+  div:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+    top: 50%; left: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    background: #07C457;
+  }
+
+  .half-circle {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transform: translate(20em, 20em)rotate(-60deg)skewY(30deg);
+    background: linear-gradient(#FFA533,gold);
+  }
+
+  div:nth-of-type(2) {
+    width: 200px;
+    height: 200px;
+    top: 50%; left: 25%;
+    background: #AE6305;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .oval {
+    width: 300px;
+    height: 100px;
+    top: 75%; left: 40%;
+    border-radius: 50%;
+    background: #FFA533;
+  }
+
+
+
+
+
+
+/*
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  transform: translate(50em, 45em);
+  position: relative;
+}
+
+.rounded-rect {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  transform: translate(200%, 100%);
+  background: linear-gradient(green, lime);
+  /* background: radial-gradient(fuchsia, gold); */
+}
+
+/*
+  .half-circle {
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transform: translate(50em, 25em)rotate(-50deg)skewY(20deg);
+    background: orange;
+
+  .half-circle- {
+    width: 100px;
+    height: 50px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      transform: translate(50em, 25em)rotate(-50deg)skewY(20deg);
+      background: orange; */
