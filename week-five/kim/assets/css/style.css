@@ -1,0 +1,16 @@
+.orange{
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 50%;
+}
+.apple{
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.clicked{
+  border: 5px solid red;
+}
