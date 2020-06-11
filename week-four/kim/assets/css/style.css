@@ -1,0 +1,51 @@
+* {
+  font: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px; /* root size */
+}
+
+
+div {
+  position: absolute;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.innerframe {
+  width: 72rem;
+  height: 60rem;
+  /* border-top: 0rem solid goldenrod; */
+  border-bottom: 7rem solid lightgrey;
+  border-right: 7rem solid Gainsboro;
+  border-left: 7rem solid grey;
+}
+
+.squareback {
+  width: 72rem;
+  height: 60rem;
+  background: black;
+}
+
+.squareframe {
+  width: 82rem;
+  height: 68rem;
+  background: silver;
+  margin-top: 4rem;
+}
+
+.circle {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: linear-gradient(red, red, yellow);
+}
