@@ -22,9 +22,9 @@ div {
 .innerframe {
   width: 72rem;
   height: 60rem;
-  border-bottom: 7rem solid lightgrey;
-  border-right: 7rem solid Gainsboro;
-  border-left: 7rem solid grey;
+  border-bottom: 7rem solid rgba(180, 175, 146, 1);
+  border-right: 7rem solid rgba(170, 175, 146, 1);
+  border-left: 7rem solid rgba(180, 165, 146, 1);
 }
 
 .squareback {
@@ -36,7 +36,7 @@ div {
 .squareframe {
   width: 87rem;
   height: 68rem;
-  background: silver;
+  background: beige;
   margin-top: 4rem;
 }
 
