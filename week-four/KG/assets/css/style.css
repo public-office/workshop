@@ -22,7 +22,7 @@ div {
 .innerframe {
   width: 72rem;
   height: 60rem;
-  border-bottom: 7rem solid rgba(180, 175, 146, 1);
+  border-bottom: 7rem solid beige;
   border-right: 7rem solid rgba(170, 175, 146, 1);
   border-left: 7rem solid rgba(180, 165, 146, 1);
 }
@@ -36,7 +36,7 @@ div {
 .squareframe {
   width: 87rem;
   height: 68rem;
-  background: beige;
+  background: rgba(180, 175, 146, 1);
   margin-top: 4rem;
 }
 
