@@ -21,6 +21,10 @@ div {
   transform: translate(-50%, -50%);
 }
 
+.clicked{
+  border: 5px solid red;
+}
+
 .innerframe {
   width: 72rem;
   height: 60rem;
@@ -43,9 +47,143 @@ div {
   margin-top: 4rem;
 }
 
-.circle {
-  width: 7rem;
-  height: 7rem;
+.apple {
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
-  background: linear-gradient(red, red, yellow);
+  /* background: green; */
+  background: radial-gradient(yellow, orange, red, red, red);
+  top:16rem;
+  left:8rem;
 }
+
+/* .apple:hover {
+  background-color: red;
+} */
+
+.cabbage {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  background: radial-gradient(green, lightgreen, green, lightgreen, green, lightgreen);
+  top:32rem;
+  left:16rem;
+}
+
+.cabbageleaf {
+  width: 18rem;
+  height: 9rem;
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 9rem;
+  background: linear-gradient(green, lightgreen, green, lightgreen, green);
+  top:25rem;
+  left:12rem;
+  transform: rotate(70deg)
+}
+
+.cabbageleaf2 {
+  width: 18rem;
+  height: 9rem;
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 9rem;
+  background: linear-gradient(green, lightgreen, green, lightgreen, green);
+  top:31rem;
+  left:11.5rem;
+  transform: rotate(140deg)
+}
+
+.cabbageleaf3 {
+  width: 18rem;
+  height: 9rem;
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 9rem;
+  background: linear-gradient(green, lightgreen, green, lightgreen, green);
+  top:25rem;
+  left:3rem;
+  transform: rotate(300deg)
+}
+
+.cabbageleaf4 {
+  width: 18rem;
+  height: 9rem;
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 9rem;
+  background: linear-gradient(green, lightgreen, green, lightgreen, green);
+  top:32.5rem;
+  left:7.5rem;
+  transform: rotate(180deg)
+}
+
+
+.melon {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  /* background: green; */
+  background: radial-gradient(orange, orange, lightgreen, lightgreen, green, green);
+  top:48rem;
+  left:30rem;
+}
+
+.meloncut {
+  width: 0;
+  height: 0;
+  border-left: 7rem solid transparent;
+  border-right: 7rem solid transparent;
+  border-bottom: 8rem solid black;
+  top:0rem;
+  left:4rem;
+  transform: rotate(200deg)
+}
+
+.meloncut.rotated {
+  transform: rotate(90deg)
+  /* transform-origin: bottom left; */
+}
+
+.melonslice {
+  width: 18rem;
+  height: 9rem;
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 9rem;
+  /* border-radius: 50%; */
+  /* background: pink; */
+  background: radial-gradient(orange, orange, orange, green);
+  top:49rem;
+  left:40rem;
+  /* transform: rotate(180deg) */
+  transform: skew(20deg);
+}
+
+.melonslice2 {
+  width: 12rem;
+  height: 6rem;
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+  background: darkorange;
+  top:52rem;
+  left:43rem;
+  transform: skew(20deg);
+}
+
+.melonslice3 {
+  width: 10.5rem;
+  height: 4.5rem;
+  border-top-left-radius: 4.5rem;
+  border-top-right-radius: 4.5rem;
+  background: lightgrey;
+  top:54rem;
+  left:44rem;
+  transform: skew(20deg);
+}
+
+/* .melonslice {
+  width: 12rem;
+  height: 6rem;
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+  background: orange;
+  bottom:0rem;
+  right:0rem;
+  /* transform: rotate(180deg) */
+} */
