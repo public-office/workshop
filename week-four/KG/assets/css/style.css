@@ -1,0 +1,113 @@
+* {
+  font: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+
+div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.innerframe {
+  width: 72rem;
+  height: 60rem;
+  border-bottom: 7rem solid beige;
+  border-right: 7rem solid rgba(170, 175, 146, 1);
+  border-left: 7rem solid rgba(180, 165, 146, 1);
+}
+
+.squareback {
+  width: 72rem;
+  height: 60rem;
+  background: black;
+}
+
+.squareframe {
+  width: 87rem;
+  height: 68rem;
+  background: rgba(180, 175, 146, 1);
+  margin-top: 4rem;
+}
+
+.apple {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: red;
+  top: 15em;
+  left: 25em;
+  position: absolute;
+}
+
+.apple-string{
+  border: 0.2px solid white;
+  height: 235px;
+  width: 0px;
+  top: 0em;
+  left: 25em;
+  position: absolute;
+}
+
+.cabbage {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background: lightgreen;
+  top: 30em;
+  left: 30em;
+  position: absolute;
+}
+
+.cabbage-string{
+  border: 0.2px solid white;
+  height: 450px;
+  width: 0px;
+  top: 0em;
+  left: 30em;
+  position: absolute;
+}
+
+.melon {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background: orange;
+  top: 50em;
+  left: 50em;
+  position: absolute;
+}
+
+.melon-slice {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 70px solid darkorange;
+  transform: rotate(195deg);
+  top: 52em;
+  left: 54em;
+  position: absolute;
+}
+
+.cucumber{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: green;
+    transform: rotate(-45deg);
+    right: 50em;
+    bottom: 100em;
+    display: flex;
+    position: absolute;
+}

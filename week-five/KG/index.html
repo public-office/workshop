@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- <script src="assets/main.js"></script> -->
+    <meta charset="utf-8">
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <button>Click me</button>
+    <div class="orange"></div>
+    <div class="apple"></div>
+
+    <script>
+      document.title = 'KGs page'
+      // document.addEventListener('DOMContentLoaded', ready)
+
+      // function ready(){
+        var button = document.querySelector('button')
+        var orange = document.querySelector('.orange')
+        var apple = document.querySelector('.apple')
+
+      function buttonClicked(){
+        console.log("you clicked it")
+        
+        button.addEventListener('click', buttonClicked)
+        }
+
+        // if (apple.classList.contains('clicked')){
+        // apple.classList.remove('clicked');
+        // } else {
+        // apple.classList.add('clicked');
+        // }
+
+
+    </script>
+  </body>
+</html>
