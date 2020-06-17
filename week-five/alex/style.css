@@ -1,0 +1,17 @@
+.one {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+  }
+
+.two {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+
+.clicked {
+  border: 5px solid red;
+}

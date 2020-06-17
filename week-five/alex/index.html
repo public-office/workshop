@@ -1,0 +1,36 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>ALEX</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <button> Click me </button>
+
+    <div class="one"> </div>
+    <div class="two"> </div>
+
+    <script>
+      var button = document.querySelector('button')
+      var one = document.querySelector('one')
+      var two = document.querySelector('two')
+
+      function buttonClicked() {
+        console.log("you clicked it")
+        one.classList.add('clicked')
+        // if (one.classList.contains('clicked')) {
+        //   one.classList.remove('clicked');
+        // } else {
+        //   one.classList.add('clicked')
+        // }
+      }
+
+      button.addEventListener('click', buttonClicked)
+    </script>
+  </body>
+
+</html>
