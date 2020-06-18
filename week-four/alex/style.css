@@ -33,7 +33,6 @@ div {
     position: absolute;
   }
 
-
   .apple, .apple-string, .cabbage, .cabbage-string {
           -webkit-animation: action 0.8s infinite  alternate;
           animation: action 0.8s infinite  alternate;

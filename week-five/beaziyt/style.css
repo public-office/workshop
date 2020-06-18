@@ -1,0 +1,57 @@
+div{
+  display: inline-block;
+}
+
+body{
+  overflow: hidden;
+}
+
+button{
+  left: 10em;
+  bottom: 10em;
+  position: absolute;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.apple{
+  width: 350px;
+  height: 350px;
+  background: limegreen;
+  border-radius: 50%;
+}
+
+.orange{
+  width: 400px;
+  height: 400px;
+  background: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.plum{
+  width: 200px;
+  height: 200px;
+  background: purple;
+  border-radius: 50%;
+}
+
+.clicked{
+  border: 5px solid red;
+  filter: blur(40px);
+}
+
+.mousedown{
+  background-color: blue;
+}
+
+.mouseenter{
+  color: grey;
+}
+
+.mouseleave{
+  color: black;
+}

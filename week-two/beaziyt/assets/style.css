@@ -290,3 +290,43 @@ margin-left: 0.1em;
 	/* left: 42.7px;
 	top: 93.95px; */
 }
+
+.hakim{
+}
+
+.saha{
+}
+
+.mezi{
+}
+
+.clicked{
+  color: rgba(255, 116, 0, 100);/*orange*/
+}
+
+.clickedhakim{
+  color: rgba(132, 66, 0, 100); /*brown*/
+}
+
+.clickedsaha{
+  color: rgba(255, 39, 112, 100); /*pink*/
+}
+
+.clickedmezi{
+  color: rgba(231, 194, 77, 100); /*mustard*/
+}
+
+.clickedzebra{
+  color: rgba(254, 35, 52, 100);/*red*/
+}
+
+.clickedbratrim{
+  color: rgba(0, 132, 66, 100); /*green*/
+}
+
+.clickeda{
+  color: rgba(0, 119, 222, 100); /*blue*/
+}
+
+
+rgba(0, 132, 66, 100); /*green*/
