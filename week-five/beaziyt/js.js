@@ -1,34 +1,34 @@
 document.addEventListener('DOMContentLoaded', ready)
 
 function ready (){
-var button =document.querySelector('button')
+// var button =document.querySelector('button')
 var apple =document.querySelector('.apple')
 var orange =document.querySelector('.orange')
 var plum =document.querySelector('.plum')
 var text =document.querySelector('.text')
 var texts =document.querySelector('.texts')
-
+var collapsible = document.getElementById(".myDIV");
 
 // console.log(button)
-function buttonClicked () {
-    // console.log("you clicked it")
-    if (apple.classList.contains('clicked')){
-      apple.classList.remove('clicked');
-    } else {
-      apple.classList.add('clicked');
-    }
-    if (orange.classList.contains('clicked')){
-      orange.classList.remove('clicked');
-    } else {
-      orange.classList.add('clicked');
-    }
-    if (plum.classList.contains('clicked')){
-      plum.classList.remove('clicked');
-    } else {
-      plum.classList.add('clicked');
-    }
-
-}
+// function buttonClicked () {
+//     // console.log("you clicked it")
+//     if (apple.classList.contains('clicked')){
+//       apple.classList.remove('clicked');
+//     } else {
+//       apple.classList.add('clicked');
+//     }
+//     if (orange.classList.contains('clicked')){
+//       orange.classList.remove('clicked');
+//     } else {
+//       orange.classList.add('clicked');
+//     }
+//     if (plum.classList.contains('clicked')){
+//       plum.classList.remove('clicked');
+//     } else {
+//       plum.classList.add('clicked');
+//     }
+//
+// }
 
 function plumClicked () {
     // console.log("you clicked it")
@@ -57,14 +57,14 @@ function orangeClicked () {
     }
 }
 
-function textmouseDown () {
-    // console.log("you clicked it")
-    if (text.classList.contains('mousedown')){
-      text.classList.remove('mousedown');
-    } else {
-      text.classList.add('mousedown');
-    }
-}
+// function textmouseDown () {
+//     // console.log("you clicked it")
+//     if (text.classList.contains('mousedown')){
+//       text.classList.remove('mousedown');
+//     } else {
+//       text.classList.add('mousedown');
+//     }
+// }
 
 function textsmouseEnter () {
     console.log("mouseenter")
@@ -84,11 +84,39 @@ function textsmouseLeave () {
     }
 }
 
-button.addEventListener('click', buttonClicked)
+// button.addEventListener('click', buttonClicked)
 plum.addEventListener('click', plumClicked)
 apple.addEventListener('click', appleClicked)
 orange.addEventListener('click', orangeClicked)
-text.addEventListener('mousedown', textmouseDown);
+// text.addEventListener('mousedown', textmouseDown);
 texts.addEventListener('mouseenter', textsmouseEnter);
 texts.addEventListener('mouseleave', textsmouseLeave);
+// collapsible.addEventListener('collapsible', collapsibleFunction)
+}
+
+function myFunctiona(){
+  var x = document.getElementById("myDIV");
+  if (x.style.visibility === "hidden"){
+    x.style.visibility = "visible";
+  } else{
+    x.style.visibility = "hidden";
+  }
+}
+
+function myFunctionb(){
+  var x = document.getElementById("myDIVV");
+  if (x.style.visibility === "hidden"){
+    x.style.visibility = "visible";
+  } else{
+    x.style.visibility = "hidden";
+  }
+}
+
+function myFunctionc(){
+  var x = document.getElementById("myDIVVV");
+  if (x.style.visibility === "hidden"){
+    x.style.visibility = "visible";
+  } else{
+    x.style.visibility = "hidden";
+  }
 }

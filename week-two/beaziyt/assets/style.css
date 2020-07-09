@@ -4,6 +4,23 @@
   box-sizing: border-box;
   font: inherit;
 }
+
+@keyframes scaling {
+
+  10%{
+    transform: scale(0.1);
+  }
+
+  50%{
+    transform: scale(0.5);
+
+  }
+  100%{
+    transform: scale(1.2);
+  }
+
+
+}
 html {
   font-size: 10px;
 }
@@ -26,20 +43,25 @@ main {
   font-family:'Garamond';
   src: url("ItalianGaramondRegular.otf");
 }
+
 p{
   margin: 0;
 }
+
 h1{
   font-family: 'Garamond';
   font-size: 0.7em;
 }
+
 h2{
   font-family: 'Futura';
 }
+
 h3{
   font-family: sans-serif;
   font-size: 2em;
 }
+
 article {
   width: calc(100% * 1 / 2);
   min-height: 255px;
@@ -291,17 +313,10 @@ margin-left: 0.1em;
 	top: 93.95px; */
 }
 
-.hakim{
-}
-
-.saha{
-}
-
-.mezi{
-}
 
 .clicked{
   color: rgba(255, 116, 0, 100);/*orange*/
+  animation: scaling infinite 3s;
 }
 
 .clickedhakim{
@@ -329,4 +344,10 @@ margin-left: 0.1em;
 }
 
 
-rgba(0, 132, 66, 100); /*green*/
+.krasamouseEnter{
+background-color: royalblue;
+
+}
+
+.krasamouseLeave{
+}

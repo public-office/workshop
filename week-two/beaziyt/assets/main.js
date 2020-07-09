@@ -122,6 +122,51 @@ var jara = document.querySelector('.jara')
       }
   }
 
+  function krasamouseEnter (){
+    console.log("krasamouseEnter")
+    if (krasa.classList.contains('krasamouseEnter')){
+      krasa.classList.remove('krasamouseEnter');
+    } else {
+      krasa.classList.add('krasamouseEnter')
+    }
+  }
+
+  function krasamouseLeave (){
+    console.log("krasamouseLeave")
+    if (krasa.classList.contains('krasamouseLeave')){
+      krasa.classList.remove('krasamouseLeave');
+    } else {
+      krasa.classList.add('krasamouseLeave')
+    }
+  }
+
+  function hakimmouseEnter (){
+    console.log("hakimmouseEnter")
+    if (hakim.classList.contains('krasamouseEnter')){
+      hakim.classList.remove('krasamouseEnter');
+    } else {
+      hakim.classList.add('krasamouseEnter')
+    }
+  }
+
+  function sahamouseEnter (){
+    console.log("sahamouseEnter")
+    if (saha.classList.contains('krasamouseEnter')){
+      saha.classList.remove('krasamouseEnter');
+    } else {
+      saha.classList.add('krasamouseEnter')
+    }
+  }
+
+  function mezimouseEnter (){
+    console.log("mezimouseEnter")
+    if (mezi.classList.contains('krasamouseEnter')){
+      mezi.classList.remove('krasamouseEnter');
+    } else {
+      mezi.classList.add('krasamouseEnter')
+    }
+  }
+
 krasa.addEventListener('click', krasaClicked)
 hakim.addEventListener('click', hakimClicked)
 saha.addEventListener('click', sahaClicked)
@@ -134,4 +179,9 @@ rim.addEventListener('click', rimClicked)
 trima.addEventListener('click', trimaClicked)
 maj.addEventListener('click', majClicked)
 jara.addEventListener('click', jaraClicked)
+krasa.addEventListener('mouseenter', krasamouseEnter)
+saha.addEventListener('mouseenter', sahamouseEnter)
+hakim.addEventListener('mouseenter', hakimmouseEnter)
+mezi.addEventListener('mouseenter', mezimouseEnter)
+
 }

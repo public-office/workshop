@@ -1,20 +1,63 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  font: inherit;
+}
+
 div{
   display: inline-block;
 }
 
+@keyframes scaling {
+
+  10%{
+    transform: scale(1);
+  }
+
+  20%{
+    transform: scale(0.8);
+  }
+
+  50%{
+    transform: scale(0.6);
+  }
+
+  80%{
+    transform: scale(0.8);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+
+}
+
 body{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 button{
   left: 10em;
   bottom: 10em;
-  position: absolute;
+  /* position: absolute; */
 }
 
 p{
   font-family: sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+
+h1{
+  color: green;
+}
+
+h2{
+  color: blue;
+}
+
+h3{
+  color: red;
 }
 
 .apple{
@@ -42,6 +85,8 @@ p{
 .clicked{
   border: 5px solid red;
   filter: blur(40px);
+  animation: scaling infinite 3s;
+  mix-blend-mode: multiply;
 }
 
 .mousedown{
@@ -54,4 +99,46 @@ p{
 
 .mouseleave{
   color: black;
+}
+
+.textbox{
+  display: inline-block;
+  width: 100vw;
+}
+
+#myDIV{
+  border: 2px solid green;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 30vw;
+  position: absolute;
+  display: inline-block;
+  visibility: hidden;
+}
+
+#myDIVV{
+  border: 2px solid blue;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 30vw;
+  position: absolute;
+  display: inline-block;
+  visibility: hidden;
+}
+
+#myDIVVV{
+  border: 2px solid red;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 30vw;
+  position: absolute;
+  display: inline-block;
+  visibility: hidden;
+}
+
+.content{
+  align-self: top;
 }
