@@ -106,39 +106,38 @@ h3{
   width: 100vw;
 }
 
-#myDIV{
-  border: 2px solid green;
+#a, #b, #c{
   text-align: center;
   padding: 10px;
   margin: 10px;
   width: 30vw;
   position: absolute;
   display: inline-block;
-  visibility: hidden;
+  /* visibility: hidden;
+  opacity: 0; */
 }
 
-#myDIVV{
-  border: 2px solid blue;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  width: 30vw;
-  position: absolute;
-  display: inline-block;
-  visibility: hidden;
+#a{
+    border: 2px solid green;
 }
 
-#myDIVVV{
-  border: 2px solid red;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  width: 30vw;
-  position: absolute;
-  display: inline-block;
-  visibility: hidden;
+#b{
+    border: 2px solid blue;
+}
+
+#c{
+    border: 2px solid red;
 }
 
 .content{
   align-self: top;
 }
+
+.row{
+  display: none;
+}
+
+/* .open{
+ visibility: visible;
+ opacity: 1;
+} */

@@ -4,68 +4,57 @@
     <meta charset="utf-8">
     <title></title>
       <link rel="stylesheet" href="./style.css">
-      <script src="js.js"></script>
-      <style>
-        </style>
+      <!-- <script src="js.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+//         $(document).ready(function() {
+//     $(".a") .on("click", function() {
+//       $("#a").toggleClass("open");
+//   });
+// });
+
+$(document).ready(function(){
+  $(".a").click(function(){
+  $("#a").slideToggle();
+});
+  $(".b").click(function(){
+    $("#b").slideToggle();
+});
+$(".c").click(function(){
+$("#c").slideToggle();
+});
+});
+
+  </script>
   </head>
   <body>
-    <div class="apple"></div>
+    <!-- <div class="apple"></div>
     <div class="orange"></div>
     <div class="pear"></div>
     <div class="plum"></div>
-    <div class="texts"><p>Mouse Over</p></div>
+    <div class="texts"><p>Mouse Over</p></div> -->
 
     <div class="textbox">
-      <div onclick="myFunctiona()"><h1><p>TEXTA BOX A</p></h1></div>
-      <div onclick="myFunctionb()"><h2><p>TEXT BOX B</p></h2></div>
-      <div onclick="myFunctionc()"><h3><p>TEXT BOX C</p></h3></div>
-    </div>
+      <li class="a"><h1><p>TEXTA BOX A</p></h1></li>
+      <li class="b"><h2><p>TEXT BOX B</p></h2></li>
+      <li class="c"><h3><p>TEXT BOX C</p></h3></li>
+  </div>
 
-      <div id="myDIV">
-        <p>This livestream is an attempt to reach beyond what André Lepecki refers to as "chrono-normativity" of performance in measured time. Over the course of 24 hours, moments of performance will emerge and recede within a landscape of quotidian domestic scenarios. Through the course of the day, Wilmer will be at home studying and elaborating on the connections between the history of "durational" performance art, the rise of the feed as a ubiquitous social and cultural form, and the expansion of domestic life we are in the midst of via quarantine lockdown.
+      <div id="a">
+        <p>AAAAAAAAAAAAAAAAAAAA
         </p>
     </div>
 
-      <div id="myDIVV">
-        <p>2 This livestream is an attempt to reach beyond what André Lepecki refers to as "chrono-normativity" of performance in measured time. Over the course of 24 hours, moments of performance will emerge and recede within a landscape of quotidian domestic scenarios. Through the course of the day, Wilmer will be at home studying and elaborating on the connections between the history of "durational" performance art, the rise of the feed as a ubiquitous social and cultural form, and the expansion of domestic life we are in the midst of via quarantine lockdown.
+      <div id="b">
+        <p>BBBBBBBBBBBBBBBBBBBBB
         </p>
     </div>
 
-    <div id="myDIVVV">
-      <p>2 This livestream is an attempt to reach beyond what André Lepecki refers to as "chrono-normativity" of performance in measured time. Over the course of 24 hours, moments of performance will emerge and recede within a landscape of quotidian domestic scenarios. Through the course of the day, Wilmer will be at home studying and elaborating on the connections between the history of "durational" performance art, the rise of the feed as a ubiquitous social and cultural form, and the expansion of domestic life we are in the midst of via quarantine lockdown.
+    <div id="c">
+      <p>CCCCCCCCCCCCCCCCCCCCCCC
       </p>
   </div>
 
     <!-- <button> Click me </button> -->
-    <script>
-  //     document.addEventListener('DOMContentLoaded', ready)
-  //
-  //     function ready () {document.title='bezs page'
-  //     var button = document.querySelector('button')
-  //     var apple = document.querySelector('.apple')
-  //     var circleone = document.querySelector('.orange')
-  //     var pear = document.querySelector('.pear')
-  //     var plum = document.querySelector('#plum')
-  //     // console.log(button)
-  //     function buttonClicked() {
-  //       // console.log("you clicked it")
-  //       // apple.classList.add('clicked')
-  //       if (apple.classList.contains('clicked')){
-  //         apple.classList.remove('clicked');
-  //       } else{
-  //         apple.classList.add('clicked');
-  //
-  //       if (pear. classList.contains('clicked')){
-  //         pear.classList.remove('clicked');
-  //         } else{
-  //         pear.classList.add('clicked');
-  //         }
-  //       }
-  //     }
-  //
-  //     button.addEventListener('click', buttonClicked)
-  //
-  //
-  // }  </script>
   </body>
 </html>
