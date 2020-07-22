@@ -117,15 +117,15 @@ h3{
   opacity: 0; */
 }
 
-#a{
+.aa{
     border: 2px solid green;
 }
 
-#b{
+.bb{
     border: 2px solid blue;
 }
 
-#c{
+.cc{
     border: 2px solid red;
 }
 

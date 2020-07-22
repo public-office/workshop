@@ -15,16 +15,24 @@
 
 $(document).ready(function(){
   $(".a").click(function(){
-  $("#a").slideToggle();
+  $(".aa").slideToggle();
 });
   $(".b").click(function(){
-    $("#b").slideToggle();
+    $(".bb").slideToggle();
 });
 $(".c").click(function(){
-$("#c").slideToggle();
-});
+$(".cc").slideToggle();
 });
 
+$(function () {
+  $('.a').click(function () {
+      $(this).next('div').slideToggle();
+
+      $(this).parent().siblings().children().next().slideUp();
+      return false;
+  });
+});
+});
   </script>
   </head>
   <body>
@@ -40,17 +48,17 @@ $("#c").slideToggle();
       <li class="c"><h3><p>TEXT BOX C</p></h3></li>
   </div>
 
-      <div id="a">
+      <div class="aa">
         <p>AAAAAAAAAAAAAAAAAAAA
         </p>
     </div>
 
-      <div id="b">
+      <div class="bb">
         <p>BBBBBBBBBBBBBBBBBBBBB
         </p>
     </div>
 
-    <div id="c">
+    <div class="cc">
       <p>CCCCCCCCCCCCCCCCCCCCCCC
       </p>
   </div>
